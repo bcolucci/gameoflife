@@ -1,0 +1,29 @@
+{
+  "width": 30,
+  "height": 25,
+  "alivePct": 0.20,
+  "computeInterval": 1000,
+  "caseSeparator": "|",
+  "cases": {
+    "isDead": {
+      "char": " ",
+      "color": "white"
+    },
+    "willBorn": {
+      "char": "░",
+      "color": "green"
+    },
+    "isAlive": {
+      "char": "█",
+      "color": "green"
+    },
+    "willSurvive": {
+      "char": "▓",
+      "color": "grey"
+    },
+    "willDie": {
+      "char": "▓",
+      "color": "red"
+    }
+  }
+}
